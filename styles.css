@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html {
+    /* to simulate the mobile phone viewport size, the width and height are set as follows */
+    height: 844px;
+    width: 390px;
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Circular;
+    unicode-range:U+F0000-FFFFD;
+    font-weight:800;
+    src:url("Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2");
+    font-display:swap
+}
+
+body {
+    height: 100%;
+}
+
+.mobile-view {
+    padding: 14px 24px;
+    /* padding-left: 24px;
+    padding-right: 24px; */
+}
+
+
+@font-face{
+    font-family:Circular;
+    unicode-range:U+0000-03FF, U+0500-058F, U+0700-074F, U+0780-FAFF, U+FE00-FE6F, U+FF00-EFFFF, U+FFFFE-10FFFF;
+    font-weight:normal;
+    font-style:normal;
+    src:url("Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2"),url("Airbnb_Cereal-Book-aa38e86e3f98554f9f7053d7b713b4db.woff") format("woff");
+    font-display:swap
+}
