@@ -1,6 +1,9 @@
 # Pre-bootcamp-Warm-up-Task
 School of Code Pre-bootcamp Warm-up
 
+To view live website, please visit: https://nashetty.github.io/Pre-bootcamp-Warm-up-Task/
+
+Task:
 - We want you to copy the home page of AirBnB (mobile site, not desktop) - https://www.airbnb.co.uk/.
 
 - Take the web page we’ve given you, step through it and break down the design.
@@ -19,3 +22,16 @@ School of Code Pre-bootcamp Warm-up
     - Feel free to have a look for more guides or best practice lists.
 - Now use that knowledge. Look through your code carefully and find at least five issues with your code. Create a new project task (label it as a “fix” or “bug”) for each issue you want to fix.
 - Repeat the branching/building/merging step for each fix task until you’ve done them all.
+
+  Deliverables:
+- A web page that looks like the web page we’ve asked you to copy.
+    - We want this to look as close as possible to the real deal.
+    - Don’t worry about anything interactive (menus that pop open etc, we’ve not covered JavaScript yet)
+- A project board that shows really good planning.
+    - Small tasks.
+    - Short but descriptive titles for each.
+    - Descriptions for each task.
+    - Each task changed from “open” to “closed” when the feature branch has been merged into main and the main branch has been pushed up to Github.
+- A clean commit history.
+    - Short and uniform commit messages.
+    - Commit messages should be descriptive.
