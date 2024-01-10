@@ -1,4 +1,4 @@
-# Pre-bootcam-Warm-up-Task
+# Pre-bootcamp-Warm-up-Task
 School of Code Pre-bootcamp Warm-up
 
 - We want you to copy the home page of AirBnB (mobile site, not desktop) - https://www.airbnb.co.uk/.
