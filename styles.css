@@ -111,6 +111,27 @@ body {
     gap: 5px;
 }
 
+.filter {
+    align-self: center;
+    position: relative;
+    display: block;
+}
+
+.filter-button {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #b0b0b0;
+    position: relative;
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+}
+
 @font-face{
     font-family:Circular;
     unicode-range:U+0000-03FF, U+0500-058F, U+0700-074F, U+0780-FAFF, U+FE00-FE6F, U+FF00-EFFFF, U+FFFFE-10FFFF;
