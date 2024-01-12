@@ -2,6 +2,13 @@
     margin: 0;
     border: 0;
     padding: 0;
+    font-family: Circular;
+    unicode-range:U+F0000-FFFFD;
+    font-weight:800;
+    src:url("Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2");
+    font-display:swap;
+    text-align: left;
+    box-sizing: border-box;
 }
 
 html {
@@ -11,23 +18,98 @@ html {
 
     margin-left: auto;
     margin-right: auto;
-    font-family: Circular;
-    unicode-range:U+F0000-FFFFD;
-    font-weight:800;
-    src:url("Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2");
-    font-display:swap
+
 }
 
 body {
     height: 100%;
+    line-height: 1.43;
+    color: #222;
+    background-color: #fff;
 }
 
-.mobile-view {
+
+/* .mobile-view {
     padding: 14px 24px;
-    /* padding-left: 24px;
-    padding-right: 24px; */
+    padding-left: 24px;
+    padding-right: 24px;
+} */
+
+.sticky-top {
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    position: sticky;
 }
 
+.search {
+    /*the below is already in mobile-view, decide where to best keep it*/
+    padding-top: 14px;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    display: grid;
+    grid-template-columns: minmax(0,1fr) 40px;
+    gap: 10px;
+
+}
+
+.search-field{
+    align-items: stretch;
+    border: 0.5px solid rgba(0 0 0/0.08);
+    border-radius: 1000px;
+    box-shadow: 0 3px 10px rgba(0 0 0/0.1);
+    display: grid;
+    min-height: 56px;   
+}
+
+.search-field-button {
+    padding: 0;
+    padding-inline-start: 4px;
+    padding-inline-end: 4px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    align-items: center;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    outline: none;
+    display: inline-grid;
+    grid-template-columns: 42px minmax(0,1fr);
+}
+
+.search-icon {
+    place-items: center;
+    display: grid;
+    height: 20px;
+    width: 42px;
+}
+
+.search-text-entry {
+    padding-left: 2px;
+    display: inline-block;
+}
+#anywhere {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.placeholders {
+    display: flex;
+    /* flex-direction: column; */
+    padding-inline-end: 24px;
+    font-size: 0.75rem;
+    color: #717171;
+    gap: 5px;
+}
 
 @font-face{
     font-family:Circular;
