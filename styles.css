@@ -395,6 +395,42 @@ a {
     font-weight: 400 !important;
 }
 
+.continue-exploring {
+    display: block;
+}
+
+.continue-exploring-header{
+    margin-top: 16px; /* adjusted from 56 as gap of 40 from the previous element is still applied */
+    font-size: 1.125rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.375rem;
+}
+
+.continue-exploring-button-container {
+    margin-top: 16px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.continue-exploring-button-container button {
+    text-align: center;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    margin: 0;
+    background: #222222;
+    color: #FFFFFF;
+    position: relative;
+    width: auto;
+    display: inline-block;
+}
+
+
 @font-face{
     font-family:Circular;
     unicode-range:U+0000-03FF, U+0500-058F, U+0700-074F, U+0780-FAFF, U+FE00-FE6F, U+FF00-EFFFF, U+FFFFE-10FFFF;
