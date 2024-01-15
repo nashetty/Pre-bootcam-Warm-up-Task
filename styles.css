@@ -29,6 +29,9 @@ body {
     background-color: #fff;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* .mobile-view {
     padding: 14px 24px;
@@ -236,7 +239,7 @@ body {
     top: 0;
     height: calc(100% - 12px);
     overflow: hidden;
-    /* width: 100%; */ /* when width: 100% is enabled, it stops images from scrolling */
+    /*width: 100%;*/ /* when width: 100% is enabled, it stops images from scrolling */
       
 }
 
@@ -358,6 +361,40 @@ body {
     height: 100%;
 }
 
+.listing-info {
+    display: grid;
+    gap: 2px 8px;
+    line-height: 1.1875rem;
+}
+
+.listing-title {
+    font-weight: 600;
+    font-size: 0.9375rem;
+    color: #222222;
+    text-overflow: ellipsis;
+}
+
+.listing-subtitle {
+    color: #717171;
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+
+.listing-cost {
+    margin-top: 6px;
+    display: block;
+    font-size: 0.9375rem;
+    color: #222222;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.duration {
+    font-weight: 400 !important;
+}
+
 @font-face{
     font-family:Circular;
     unicode-range:U+0000-03FF, U+0500-058F, U+0700-074F, U+0780-FAFF, U+FE00-FE6F, U+FF00-EFFFF, U+FFFFE-10FFFF;
@@ -366,3 +403,4 @@ body {
     src:url("Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2"),url("Airbnb_Cereal-Book-aa38e86e3f98554f9f7053d7b713b4db.woff") format("woff");
     font-display:swap
 }
+
