@@ -513,6 +513,60 @@ a {
     background-image: linear-gradient(to right,rgba(255,255,255,0),white, white);
 }
 
+.inspiration-tab-panel {
+    display: block;
+    padding-top: 32px;
+}
+
+.tab-panel-list {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    column-gap: 8px;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    row-gap: 24px;
+    list-style: none;
+
+}
+
+.tab-panel-list-item a {
+    display: flex;
+    line-height: 1.125rem;
+    font-size: 0.875rem;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.list-item-title {
+    font-weight: 600;
+    color: #222222;
+    white-space: nowrap;
+}
+
+.list-item-subtitle {
+    color: #717171;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.show-more-button {
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    line-height: 1.125rem;
+    font-size: 0.875rem;
+    background: transparent;
+    display: flex;
+    position: relative;
+    color: #222222;
+    gap: 4px;
+
+}
 
 @font-face{
     font-family:Circular;
