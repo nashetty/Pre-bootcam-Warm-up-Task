@@ -568,6 +568,52 @@ a {
 
 }
 
+footer {
+    display: block;
+    border-top: 1px solid #DDDDDD;
+    background: #F7F7F7F7;
+}
+
+.footer-container {
+    margin-inline: auto;
+    padding-inline: 24px;
+    display: block;
+    grid-column-start: 2;
+}
+
+.more-info-section {
+    border-top: 1px solid #DDDDDD;
+    padding-block: 24px;
+}
+
+.footer-section-header {
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 600;
+    line-height: 1.125rem;
+    font-size: 0.875rem;
+    color: #222222;
+}
+
+.footer-section-list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    gap: 12px;
+}
+
+.footer-section-list li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.125rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #222222;
+
+}
+
 @font-face{
     font-family:Circular;
     unicode-range:U+0000-03FF, U+0500-058F, U+0700-074F, U+0780-FAFF, U+FE00-FE6F, U+FF00-EFFFF, U+FFFFE-10FFFF;
