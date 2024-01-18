@@ -5,7 +5,7 @@
     
     font-family: Circular;
     unicode-range:U+F0000-FFFFD;
-    font-weight:800;
+    font-weight: 400;
     src:url("Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2");
     font-display: swap;
     text-align: left;
@@ -586,7 +586,7 @@ footer {
     padding-block: 24px;
 }
 
-.footer-section-header {
+.more-info-section-header {
     margin: 0;
     margin-bottom: 12px;
     font-weight: 600;
@@ -595,7 +595,7 @@ footer {
     color: #222222;
 }
 
-.footer-section-list {
+.more-info-section-list {
     margin: 0;
     padding: 0;
     display: grid;
@@ -603,7 +603,7 @@ footer {
     gap: 12px;
 }
 
-.footer-section-list li a {
+.more-info-section-list li a {
     margin: 0;
     padding: 0;
     border: 0;
@@ -611,7 +611,93 @@ footer {
     font-size: 0.875rem;
     font-weight: 400;
     color: #222222;
+}
 
+.footer-section {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #DDDDDD;
+    display: block;
+}
+
+.choose-language {
+    margin-bottom: 22px;
+    display: flex;
+}
+
+.language {
+    margin-right: 24px;
+    font-weight: 600;
+}
+
+.language button, .currency button {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    color: #222222;
+    display: flex;
+    align-items: center;
+}
+
+.language button span, .currency button span {
+    font-weight: 600;
+}
+
+.globe-icon {
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+.currency-sign {
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.copyright-terms {
+    display: block;
+    font-size: 0.875rem;
+}
+
+.copyright {
+    margin-bottom: 2px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.terms span {
+    margin-top: 2px;
+    line-height: 1.625rem;
+    display: inline-block;
+}
+
+.terms span ol {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: decimal;
+}
+
+.terms span ol li {
+    display: inline-block;
+}
+
+.terms span ol li a{
+    display: inline-block;
+    font-weight: 400 !important;
+}
+
+.period {
+    width: 19px;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    line-height: 1.125rem !important;
+    font-size: 0.875rem;
+    vertical-align: top;
 }
 
 @font-face{
