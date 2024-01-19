@@ -27,7 +27,7 @@ body {
     height: 100%;
     line-height: 1.43;
     color: #222;
-    background-color: #fff;
+    background-color: #fff;  
 }
 
 a {
@@ -698,6 +698,72 @@ footer {
     line-height: 1.125rem !important;
     font-size: 0.875rem;
     vertical-align: top;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #EBEBEB;
+    position: fixed;
+    bottom: -60px;
+    height: 125px;
+    padding-bottom: 60px;
+    background: #FFFFFF;
+    z-index: 1;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    color: #222222;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 390px;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    flex: 1 0 auto;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.nav-icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+    position: relative;  
+}
+
+.nav-icon-color {
+    color: #717171;
+}
+
+.navbar-link {
+    display: flex;
+    flex-direction: 1 1 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    text-align: center;
+    width: 20%;
+    overflow-wrap: break-word;
+    padding: 0 2px;
+    font-size: 100%;  
+    
+}
+
+.nav-link-name {
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+    font-weight: 400;
+    color: #717171;
+}
+
+.red-icon {
+    color: #E81948;
+    font-weight: 600;
 }
 
 @font-face{

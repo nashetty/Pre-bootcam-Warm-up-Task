@@ -9,536 +9,570 @@
 </head>
 <body>
 	<div class="mobile-view">
-	<!--'Get the App' banner at the top of the page-->
-	<div class="sticky-top">
-		<!--Sticky search - Anywhwere, any week, add guests, search button and filters-->
-		<div class="search">
-			<div class="search-field">
-				<button aria-label="Anywhere" type="button" class="search-field-button">
-					<span class="search-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; height: 20px; width: 20px; fill: currentcolor;">
-							<path d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"></path>	
-						</svg>
-					</span>
-					<span class="search-text-entry">
-						<div id="anywhere">Anywhere</div>
-						<div class="placeholders">
-							<span>Any week</span>
-							<span>.</span>
-							<span>Add guests</span>
-						</div>
-					</span>
-				</button>
-			</div>
-			<!-- div for filter button-->
-			<div class="filter">
-				<button aria-label="Show filters" type="button" class="filter-button">
-					<span>
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentColor; stroke-width: 4; overflow: visible;">
-							<path fill="none" d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3"></path>
-						</svg>
-					</span>
-				</button>
-			</div>
-		</div>
-		
-		<!--Sticky - sliding menu with different selectable categories e.g. cabins, beach front etc-->
-		<div class="scrolling-categories">
-			<div class="category-card" style="border-bottom: 2px solid black; padding-bottom: 12px;">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg" alt="" width="24" height="24" style="opacity: 1;">
-						<div class="category-name">
-							<span style=" color: #000000;">Luxe</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/ca25c7f3-0d1f-432b-9efa-b9f5dc6d8770.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Camping</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Amazing views</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Countryside</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Beach</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Cabins</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>OMG!</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Beachfront</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Mansions</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Amazing pools</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Castles</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/9a2ca4df-ee90-4063-b15d-0de7e4ce210a.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Off-the-grid</span>
-						</div>
-					</span>
-				</div>
-			</div>
-			<div class="category-card">
-				<div class="category-icon-name">
-					<span>
-						<img class="category-icon" src="https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg" alt="" width="24" height="24">
-						<div class="category-name">
-							<span>Treehouses</span>
-						</div>
-					</span>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<!--main section with cards containing pictures and links to accommodation 390x18777.9-->
-	<div class="main-section">
-		<!--First Listing-->
-		<div class="listing-container">
-			<a target="_self" href="https://www.airbnb.co.uk/luxury/listing/26202548?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1258652434&search_mode=flex_destinations_search&check_in=2024-04-01&check_out=2024-04-08&source_impression_id=p3_1705255991_%2F%2B6dnC2%2FJrICDWzK&previous_page_section_name=1000&federated_search_id=685c434a-2c5e-4ce2-ae3e-0feada7714af">
-				<div class="listing">
-					<div class="image-card">
-						<!--Icons-->
-						<div class="listing-icons">
-							<div class="favourite-top">
-								<div class="guest-favourite">
-									<div class="guest-favourite-text">Guest Favourite</div>
-								</div>
-								<div class="favourite">
-									<button class="favourite-button" type="button">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: #FFFFFF; stroke-width: 2; overflow: visible;">
-											<path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
-										</svg>
-									</button>
-								</div>
-							</div>
-							<div class="icons-bottom">
-								<div class="scroll-dots-filler-start"></div>
-								<div class="scroll-dots">
-									<span class="dot" style="opacity: 1;"></span>
-									<span class="dot"></span>
-									<span class="dot"></span>
-									<span class="dot" style="height: 5px; width: 5px;"></span>
-									<span class="dot" style="height: 4px; width: 4px;"></span>
-								</div>
-								<div class="scroll-dots-filler-end"></div>
-							</div>
-							
-						</div>
-						<div class="listing-images">
-							<!--Display 4 images from the listing-->
-							<div class="individual-image">
-								<picture>
-									<img src="https://a0.muscache.com/im/pictures/00d7ecf3-dcb8-4012-8243-f7faf58a71cc.jpg?im_w=720" style="--dls-liteimage-object-fit: cover;">
-								</picture>
-							</div>
-
-							<div class="individual-image">
-								<picture>
-									<img src="https://a0.muscache.com/im/pictures/ef304fe3-0107-42f0-a65d-4566e840cecb.jpg?im_w=720" style="--dls-liteimage-object-fit: cover;">
-								</picture>
-							</div>
-
-							<div class="individual-image">
-								<picture>
-									<img src="https://a0.muscache.com/im/pictures/453173b8-80b7-4cc6-8385-7215402ebb38.jpg?im_w=720" style="--dls-liteimage-object-fit: cover;">
-								</picture>
-							</div>
-
-
-							<div class="individual-image">
-								<picture>
-									<img src="https://a0.muscache.com/im/pictures/12aadf6c-607d-48b9-94ff-7122397dd152.jpg?im_w=720" style="--dls-liteimage-object-fit: cover;">
-								</picture>
-							</div>
-						</div>
-					</div>	
-
-					<!--Listing info-->
-					<div class="listing-info">
-						<div class="listing-title">
-							San Michele Salentino, Italy
-						</div>
-						<div class="listing-subtitle">
-							Professional Host
-						</div>
-						<div class="listing-subtitle">
-							1<code>&#8211;</code>8 Apr
-						</div>
-						<div class="listing-cost">
-							<span class="price">£1,245 </span>
-							<span class="duration">night</span>
-						</div>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<!--Second Listing-->
-		<div class="listing-container">
-			<a target="_self" href="https://www.airbnb.co.uk/luxury/listing/731152182686096708?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1549758923&search_mode=flex_destinations_search&check_in=2024-01-29&check_out=2024-02-05&source_impression_id=p3_1705276493_vuV8RB6U5o2rVg4U&previous_page_section_name=1000&federated_search_id=f44db90e-fd00-4ade-a4e9-f893f3c4fbe1">
-				<div class="listing">
-					<div class="image-card">
-						<!--Icons-->
-						<div class="listing-icons">
-							<div class="favourite-top">
-								<div class="guest-favourite">
-									<div class="guest-favourite-text">Guest Favourite</div>
-								</div>
-								<div class="favourite">
-									<button class="favourite-button" type="button">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: #FFFFFF; stroke-width: 2; overflow: visible;">
-											<path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
-										</svg>
-									</button>
-								</div>
-							</div>
-							<div class="icons-bottom">
-								<div class="scroll-dots-filler-start"></div>
-								<div class="scroll-dots">
-									<span class="dot" style="opacity: 1;"></span>
-									<span class="dot"></span>
-									<span class="dot"></span>
-									<span class="dot" style="height: 5px; width: 5px;"></span>
-									<span class="dot" style="height: 4px; width: 4px;"></span>
-								</div>
-								<div class="scroll-dots-filler-end"></div>
-							</div>
-							
-						</div>
-						<div class="listing-images">
-							<!--Display 4 images from the listing-->
-							<div class="individual-image">
-								<picture>
-									<img src="https://a0.muscache.com/im/pictures/miso/Hosting-731152182686096708/original/e2354339-3998-428f-950e-f1355f56c176.jpeg?im_w=720" style="--dls-liteimage-object-fit: cover;">
-								</picture>
-							</div>
-
-							<div class="individual-image">
-								<picture>
-									<img src="https://a0.muscache.com/im/pictures/miso/Hosting-731152182686096708/original/2fa4eb06-56fc-461b-87bf-d13b8adeb26b.jpeg?im_w=720" style="--dls-liteimage-object-fit: cover;">
-								</picture>
-							</div>
-
-							<div class="individual-image">
-								<picture>
-									<img src="https://a0.muscache.com/im/pictures/miso/Hosting-731152182686096708/original/65ed53ac-9062-493e-a2b0-f0c4d58f85e5.jpeg?im_w=720" style="--dls-liteimage-object-fit: cover;">
-								</picture>
-							</div>
-
-
-							<div class="individual-image">
-								<picture>
-									<img src="https://a0.muscache.com/im/pictures/miso/Hosting-731152182686096708/original/2af72037-ea69-4a12-a8b9-0706141e8a21.jpeg?im_w=720" style="--dls-liteimage-object-fit: cover;">
-								</picture>
-							</div>
-						</div>
-					</div>	
-
-					<!--Listing info-->
-					<div class="listing-info">
-						<div class="listing-title">
-							Châtel, France
-						</div>
-						<div class="listing-subtitle">
-							Professional Host
-						</div>
-						<div class="listing-subtitle">
-							29 Jan <code>&#8211;</code> 5 Feb
-						</div>
-						<div class="listing-cost">
-							<span class="price">£1,705 </span>
-							<span class="duration">night</span>
-						</div>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<!--Continue exploring with margin-->
-        <!--Show more button-->
-		<div class="continue-exploring">
-			<div class="continue-exploring-header">Continue exploring Luxe homes</div>
-			<div class="continue-exploring-button-container">
-				<button>
-					Show more
-				</button>
-			</div>
-		</div>
-
-		
-	</div>
-        
-
-    <!--Inspiration for future getaways-->
-	<div class="inspiration-container">
-		<h2 class="inspiration-header">
-			Inspiration for future getaways
-		</h2>
-		<div class="inspiration-content-container">
-			<!--scrolling menu-->
-			<div class="inspiration-scrolling-menu">
-				<div class="inspiration-menu-tabs">
-					<!--first tab is underlined as active with black font colour-->
-					<button class="tabs-options" id="underlined-tab" style="margin-left: -10px; color: #222222;">Popular</button>
-					<!--remaining tabs-->
-					<button class="tabs-options">Historic</button>
-					<button class="tabs-options">Coastal</button>
-					<button class="tabs-options">Islands</button>
-					<button class="tabs-options">Lakes</button>
-					<button class="tabs-options">Unique stays</button>
-					<button class="tabs-options">Categories</button>
-					<button class="tabs-options">Things to do</button>
-				</div>
-				<div class="inspiration-menu-underline"></div>
-				<button class="inspiration-more-button">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;">
-						<path fill="none" d="m12 4 11.3 11.3a1 1 0 0 1 0 1.4L12 28"></path>
-					</svg>
-				</button>
-
-			</div>
-			<div class="inspiration-tab-panel">
-				<ul class="tab-panel-list">
-					<li class="tab-panel-list-item">
-						<a href="https://www.airbnb.co.uk/aberfeldy-united-kingdom/stays">
-							<span class="list-item-title">Aberfeldy</span>
-							<span class="list-item-subtitle">Holiday rentals</span>
-						</a>
-					</li>
-					<li class="tab-panel-list-item">
-						<a href="https://www.airbnb.co.uk/amsterdam-netherlands/stays/houses">
-							<span class="list-item-title">Amsterdam</span>
-							<span class="list-item-subtitle">House rentals</span>
-						</a>
-					</li>
-					<li class="tab-panel-list-item">
-						<a href="https://www.airbnb.co.uk/athens-greece/stays/apartments">
-							<span class="list-item-title">Athens</span>
-							<span class="list-item-subtitle">Flat rentals</span>
-						</a>
-					</li>
-					<li class="tab-panel-list-item">
-						<a href="https://www.airbnb.co.uk/aviemore-united-kingdom/stays/cottages">
-							<span class="list-item-title">Aviemore</span>
-							<span class="list-item-subtitle">Cottage rentals</span>
-						</a>
-					</li>
-					<li class="tab-panel-list-item">
-						<a href="https://www.airbnb.co.uk/bakewell-united-kingdom/stays/houses">
-							<span class="list-item-title">Bakewell</span>
-							<span class="list-item-subtitle">House rentals</span>
-						</a>
-					</li>
-					<li class="tab-panel-list-item">
-						<a href="https://www.airbnb.co.uk/barcelona-spain/stays">
-							<span class="list-item-title">Barcelona</span>
-							<span class="list-item-subtitle">Flat rentals</span>
-						</a>
-					</li>
-					<li class="tab-panel-list-item">
-						<a href="https://www.airbnb.co.uk/bath-united-kingdom/stays/cabins">
-							<span class="list-item-title">Bath</span>
-							<span class="list-item-subtitle">Cabin rentals</span>
-						</a>
-					</li>
-					<li>
-						<button class="show-more-button" type="button">
-							<span>Show more</span>
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
-								<path fill="none" d="M28 12 16.7 23.3a1 1 0 0 1-1.4 0L4 12"></path>
+		<!--'Get the App' banner at the top of the page-->
+		<div class="sticky-top">
+			<!--Sticky search - Anywhwere, any week, add guests, search button and filters-->
+			<div class="search">
+				<div class="search-field">
+					<button aria-label="Anywhere" type="button" class="search-field-button">
+						<span class="search-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; height: 20px; width: 20px; fill: currentcolor;">
+								<path d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z"></path>	
 							</svg>
-						</button>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-        <!--Navbar 342x26-->
-        <!--Popular, Historic, Coastal etc, tabs-->
-        <!--Popular tab panel withlist of places and Show more. Each list item is an <a> tag with 2 <span> inside -->
-
-    <!--Footer with multiple sections-->
-	<footer>
-		<div class="footer-container">
-			<!--more info part of the footer-->
-			<div class="more-info-container">
-				<section class="more-info-section" style="border-top: 0;">
-					<h3 class="more-info-section-header">Support</h3>
-					<ul class="more-info-section-list">
-						<li><a href="https://www.airbnb.co.uk/help/home?from=footer">Help Centre</a></li>
-						<li><a href="https://www.airbnb.co.uk/aircover">Aircover</a></li>
-						<li><a href="https://www.airbnb.co.uk/against-discrimination">Anti-discrimination</a></li>
-						<li><a href="https://www.airbnb.co.uk/against-discrimination">Disability support</a></li>
-						<li><a href="https://www.airbnb.co.uk/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19">Cancellation options</a></li>
-						<li><a href="https://www.airbnb.co.uk/neighbors">Report neighbourhood concern</a></li>
-					</ul>
-				</section>
-				<section class="more-info-section">
-					<h3 class="more-info-section-header">Hosting</h3>
-					<ul class="more-info-section-list">
-						<li><a href="https://www.airbnb.co.uk/host/homes?from_footer=1">Airbnb your home</a></li>
-						<li><a href="https://www.airbnb.co.uk/aircover-for-hosts">AirCover for Hosts</a></li>
-						<li><a href="https://www.airbnb.co.uk/resources">Hosting resources</a></li>
-						<li><a href="https://www.airbnb.co.uk/help/community?s=footer">Community forum</a></li>
-						<li><a href="https://www.airbnb.co.uk/help/responsible-hosting">Hosting responsibility</a></li>					
-				</section>
-				<section class="more-info-section">
-					<h3 class="more-info-section-header">Airbnb</h3>
-					<ul class="more-info-section-list">
-						<li><a href="https://www.airbnb.co.uk/press/news">Newsroom</a></li>
-						<li><a href="https://www.airbnb.co.uk/release">New features</a></li>
-						<li><a href="https://www.airbnb.co.uk/careers">Careers</a></li>
-						<li><a href="https://investors.airbnb.com/">Investors</a></li>
-						<li><a href="https://www.airbnb.co.uk/giftcards">Gift cards</a></li>
-						<li><a href="https://www.airbnb.org/?locale=en-GB/">Airbnb.org emergency stays</a></li>
-					</ul>					
-				</section>
+						</span>
+						<span class="search-text-entry">
+							<div id="anywhere">Anywhere</div>
+							<div class="placeholders">
+								<span>Any week</span>
+								<span>.</span>
+								<span>Add guests</span>
+							</div>
+						</span>
+					</button>
+				</div>
+				<!-- div for filter button-->
+				<div class="filter">
+					<button aria-label="Show filters" type="button" class="filter-button">
+						<span>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentColor; stroke-width: 4; overflow: visible;">
+								<path fill="none" d="M7 16H3m26 0H15M29 6h-4m-8 0H3m26 20h-4M7 16a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM17 6a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 20a4 4 0 1 0 8 0 4 4 0 0 0-8 0zm0 0H3"></path>
+							</svg>
+						</span>
+					</button>
+				</div>
 			</div>
 			
-			<!--bottom footer with privacy, terms, sitemaps etc-->
-			<div class="footer-section">
-				<div>
-					<div class="choose-language">
-						<span class="language">
-							<button>
-								<span class="globe-icon">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" style="display:block;height:16px;width:16px;fill:currentColor" >
-										<path d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z"></path>
-									</svg>
-								</span>
-								<span>English (GB)</span>
-							</button>
+			<!--Sticky - sliding menu with different selectable categories e.g. cabins, beach front etc-->
+			<div class="scrolling-categories">
+				<div class="category-card" style="border-bottom: 2px solid black; padding-bottom: 12px;">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg" alt="" width="24" height="24" style="opacity: 1;">
+							<div class="category-name">
+								<span style=" color: #000000;">Luxe</span>
+							</div>
 						</span>
-						<span class="currency">
-							<button>
-								<span class="currency-sign">£</span>
-								<span>GBP</span>
-							</button>
-						</span>
-
-					</div>
-					<div class="copyright-terms">
-						<div class="copyright">
-							© 2024 Airbnb, Inc.
-						</div>
-						<div class="terms">
-							<span>
-								<ol>
-									<li><a href="https://www.airbnb.co.uk/terms/privacy_policy">Privacy</a><span class="period">.</span></li>
-									<li><a href="https://www.airbnb.co.uk/terms">Terms</a><span class="period">.</span></li>
-									<li><a href="https://www.airbnb.co.uk/sitemaps/v2">Sitemap</a><span class="period">.</span></li>
-									<li><a href="https://a0.muscache.com/static/uk-modern-slavery-act-statement.pdf">UK Modern Slavery Act</a><span class="period">.</span></li>
-									<li><a href="https://www.airbnb.co.uk/about/company-details">Company details</a></li>
-								</ol>
-							</span>
-						</div>
-
 					</div>
 				</div>
-
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/ca25c7f3-0d1f-432b-9efa-b9f5dc6d8770.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Camping</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Amazing views</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Countryside</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Beach</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Cabins</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>OMG!</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Beachfront</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Mansions</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Amazing pools</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Castles</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/9a2ca4df-ee90-4063-b15d-0de7e4ce210a.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Off-the-grid</span>
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="category-card">
+					<div class="category-icon-name">
+						<span>
+							<img class="category-icon" src="https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg" alt="" width="24" height="24">
+							<div class="category-name">
+								<span>Treehouses</span>
+							</div>
+						</span>
+					</div>
+				</div>
 			</div>
 		</div>
-	</footer>
-	    
+
+
+		<!--main section with cards containing pictures and links to accommodation 390x18777.9-->
+		<div class="main-section">
+			<!--First Listing-->
+			<div class="listing-container">
+				<a target="_self" href="https://www.airbnb.co.uk/luxury/listing/26202548?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1258652434&search_mode=flex_destinations_search&check_in=2024-04-01&check_out=2024-04-08&source_impression_id=p3_1705255991_%2F%2B6dnC2%2FJrICDWzK&previous_page_section_name=1000&federated_search_id=685c434a-2c5e-4ce2-ae3e-0feada7714af">
+					<div class="listing">
+						<div class="image-card">
+							<!--Icons-->
+							<div class="listing-icons">
+								<div class="favourite-top">
+									<div class="guest-favourite">
+										<div class="guest-favourite-text">Guest Favourite</div>
+									</div>
+									<div class="favourite">
+										<button class="favourite-button" type="button">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: #FFFFFF; stroke-width: 2; overflow: visible;">
+												<path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+								<div class="icons-bottom">
+									<div class="scroll-dots-filler-start"></div>
+									<div class="scroll-dots">
+										<span class="dot" style="opacity: 1;"></span>
+										<span class="dot"></span>
+										<span class="dot"></span>
+										<span class="dot" style="height: 5px; width: 5px;"></span>
+										<span class="dot" style="height: 4px; width: 4px;"></span>
+									</div>
+									<div class="scroll-dots-filler-end"></div>
+								</div>
+								
+							</div>
+							<div class="listing-images">
+								<!--Display 4 images from the listing-->
+								<div class="individual-image">
+									<picture>
+										<img src="https://a0.muscache.com/im/pictures/00d7ecf3-dcb8-4012-8243-f7faf58a71cc.jpg?im_w=720" style="--dls-liteimage-object-fit: cover;">
+									</picture>
+								</div>
+
+								<div class="individual-image">
+									<picture>
+										<img src="https://a0.muscache.com/im/pictures/ef304fe3-0107-42f0-a65d-4566e840cecb.jpg?im_w=720" style="--dls-liteimage-object-fit: cover;">
+									</picture>
+								</div>
+
+								<div class="individual-image">
+									<picture>
+										<img src="https://a0.muscache.com/im/pictures/453173b8-80b7-4cc6-8385-7215402ebb38.jpg?im_w=720" style="--dls-liteimage-object-fit: cover;">
+									</picture>
+								</div>
+
+
+								<div class="individual-image">
+									<picture>
+										<img src="https://a0.muscache.com/im/pictures/12aadf6c-607d-48b9-94ff-7122397dd152.jpg?im_w=720" style="--dls-liteimage-object-fit: cover;">
+									</picture>
+								</div>
+							</div>
+						</div>	
+
+						<!--Listing info-->
+						<div class="listing-info">
+							<div class="listing-title">
+								San Michele Salentino, Italy
+							</div>
+							<div class="listing-subtitle">
+								Professional Host
+							</div>
+							<div class="listing-subtitle">
+								1<code>&#8211;</code>8 Apr
+							</div>
+							<div class="listing-cost">
+								<span class="price">£1,245 </span>
+								<span class="duration">night</span>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<!--Second Listing-->
+			<div class="listing-container">
+				<a target="_self" href="https://www.airbnb.co.uk/luxury/listing/731152182686096708?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1549758923&search_mode=flex_destinations_search&check_in=2024-01-29&check_out=2024-02-05&source_impression_id=p3_1705276493_vuV8RB6U5o2rVg4U&previous_page_section_name=1000&federated_search_id=f44db90e-fd00-4ade-a4e9-f893f3c4fbe1">
+					<div class="listing">
+						<div class="image-card">
+							<!--Icons-->
+							<div class="listing-icons">
+								<div class="favourite-top">
+									<div class="guest-favourite">
+										<div class="guest-favourite-text">Guest Favourite</div>
+									</div>
+									<div class="favourite">
+										<button class="favourite-button" type="button">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: #FFFFFF; stroke-width: 2; overflow: visible;">
+												<path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+								<div class="icons-bottom">
+									<div class="scroll-dots-filler-start"></div>
+									<div class="scroll-dots">
+										<span class="dot" style="opacity: 1;"></span>
+										<span class="dot"></span>
+										<span class="dot"></span>
+										<span class="dot" style="height: 5px; width: 5px;"></span>
+										<span class="dot" style="height: 4px; width: 4px;"></span>
+									</div>
+									<div class="scroll-dots-filler-end"></div>
+								</div>
+								
+							</div>
+							<div class="listing-images">
+								<!--Display 4 images from the listing-->
+								<div class="individual-image">
+									<picture>
+										<img src="https://a0.muscache.com/im/pictures/miso/Hosting-731152182686096708/original/e2354339-3998-428f-950e-f1355f56c176.jpeg?im_w=720" style="--dls-liteimage-object-fit: cover;">
+									</picture>
+								</div>
+
+								<div class="individual-image">
+									<picture>
+										<img src="https://a0.muscache.com/im/pictures/miso/Hosting-731152182686096708/original/2fa4eb06-56fc-461b-87bf-d13b8adeb26b.jpeg?im_w=720" style="--dls-liteimage-object-fit: cover;">
+									</picture>
+								</div>
+
+								<div class="individual-image">
+									<picture>
+										<img src="https://a0.muscache.com/im/pictures/miso/Hosting-731152182686096708/original/65ed53ac-9062-493e-a2b0-f0c4d58f85e5.jpeg?im_w=720" style="--dls-liteimage-object-fit: cover;">
+									</picture>
+								</div>
+
+
+								<div class="individual-image">
+									<picture>
+										<img src="https://a0.muscache.com/im/pictures/miso/Hosting-731152182686096708/original/2af72037-ea69-4a12-a8b9-0706141e8a21.jpeg?im_w=720" style="--dls-liteimage-object-fit: cover;">
+									</picture>
+								</div>
+							</div>
+						</div>	
+
+						<!--Listing info-->
+						<div class="listing-info">
+							<div class="listing-title">
+								Châtel, France
+							</div>
+							<div class="listing-subtitle">
+								Professional Host
+							</div>
+							<div class="listing-subtitle">
+								29 Jan <code>&#8211;</code> 5 Feb
+							</div>
+							<div class="listing-cost">
+								<span class="price">£1,705 </span>
+								<span class="duration">night</span>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<!--Continue exploring with margin-->
+			<!--Show more button-->
+			<div class="continue-exploring">
+				<div class="continue-exploring-header">Continue exploring Luxe homes</div>
+				<div class="continue-exploring-button-container">
+					<button>
+						Show more
+					</button>
+				</div>
+			</div>
+
+			
+		</div>
+			
+
+		<!--Inspiration for future getaways-->
+		<div class="inspiration-container">
+			<h2 class="inspiration-header">
+				Inspiration for future getaways
+			</h2>
+			<div class="inspiration-content-container">
+				<!--scrolling menu-->
+				<div class="inspiration-scrolling-menu">
+					<div class="inspiration-menu-tabs">
+						<!--first tab is underlined as active with black font colour-->
+						<button class="tabs-options" id="underlined-tab" style="margin-left: -10px; color: #222222;">Popular</button>
+						<!--remaining tabs-->
+						<button class="tabs-options">Historic</button>
+						<button class="tabs-options">Coastal</button>
+						<button class="tabs-options">Islands</button>
+						<button class="tabs-options">Lakes</button>
+						<button class="tabs-options">Unique stays</button>
+						<button class="tabs-options">Categories</button>
+						<button class="tabs-options">Things to do</button>
+					</div>
+					<div class="inspiration-menu-underline"></div>
+					<button class="inspiration-more-button">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;">
+							<path fill="none" d="m12 4 11.3 11.3a1 1 0 0 1 0 1.4L12 28"></path>
+						</svg>
+					</button>
+
+				</div>
+				<div class="inspiration-tab-panel">
+					<ul class="tab-panel-list">
+						<li class="tab-panel-list-item">
+							<a href="https://www.airbnb.co.uk/aberfeldy-united-kingdom/stays">
+								<span class="list-item-title">Aberfeldy</span>
+								<span class="list-item-subtitle">Holiday rentals</span>
+							</a>
+						</li>
+						<li class="tab-panel-list-item">
+							<a href="https://www.airbnb.co.uk/amsterdam-netherlands/stays/houses">
+								<span class="list-item-title">Amsterdam</span>
+								<span class="list-item-subtitle">House rentals</span>
+							</a>
+						</li>
+						<li class="tab-panel-list-item">
+							<a href="https://www.airbnb.co.uk/athens-greece/stays/apartments">
+								<span class="list-item-title">Athens</span>
+								<span class="list-item-subtitle">Flat rentals</span>
+							</a>
+						</li>
+						<li class="tab-panel-list-item">
+							<a href="https://www.airbnb.co.uk/aviemore-united-kingdom/stays/cottages">
+								<span class="list-item-title">Aviemore</span>
+								<span class="list-item-subtitle">Cottage rentals</span>
+							</a>
+						</li>
+						<li class="tab-panel-list-item">
+							<a href="https://www.airbnb.co.uk/bakewell-united-kingdom/stays/houses">
+								<span class="list-item-title">Bakewell</span>
+								<span class="list-item-subtitle">House rentals</span>
+							</a>
+						</li>
+						<li class="tab-panel-list-item">
+							<a href="https://www.airbnb.co.uk/barcelona-spain/stays">
+								<span class="list-item-title">Barcelona</span>
+								<span class="list-item-subtitle">Flat rentals</span>
+							</a>
+						</li>
+						<li class="tab-panel-list-item">
+							<a href="https://www.airbnb.co.uk/bath-united-kingdom/stays/cabins">
+								<span class="list-item-title">Bath</span>
+								<span class="list-item-subtitle">Cabin rentals</span>
+							</a>
+						</li>
+						<li>
+							<button class="show-more-button" type="button">
+								<span>Show more</span>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
+									<path fill="none" d="M28 12 16.7 23.3a1 1 0 0 1-1.4 0L4 12"></path>
+								</svg>
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			<!--Navbar 342x26-->
+			<!--Popular, Historic, Coastal etc, tabs-->
+			<!--Popular tab panel withlist of places and Show more. Each list item is an <a> tag with 2 <span> inside -->
+
+		<!--Footer with multiple sections-->
+		<footer>
+			<div class="footer-container">
+				<!--more info part of the footer-->
+				<div class="more-info-container">
+					<section class="more-info-section" style="border-top: 0;">
+						<h3 class="more-info-section-header">Support</h3>
+						<ul class="more-info-section-list">
+							<li><a href="https://www.airbnb.co.uk/help/home?from=footer">Help Centre</a></li>
+							<li><a href="https://www.airbnb.co.uk/aircover">Aircover</a></li>
+							<li><a href="https://www.airbnb.co.uk/against-discrimination">Anti-discrimination</a></li>
+							<li><a href="https://www.airbnb.co.uk/against-discrimination">Disability support</a></li>
+							<li><a href="https://www.airbnb.co.uk/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19">Cancellation options</a></li>
+							<li><a href="https://www.airbnb.co.uk/neighbors">Report neighbourhood concern</a></li>
+						</ul>
+					</section>
+					<section class="more-info-section">
+						<h3 class="more-info-section-header">Hosting</h3>
+						<ul class="more-info-section-list">
+							<li><a href="https://www.airbnb.co.uk/host/homes?from_footer=1">Airbnb your home</a></li>
+							<li><a href="https://www.airbnb.co.uk/aircover-for-hosts">AirCover for Hosts</a></li>
+							<li><a href="https://www.airbnb.co.uk/resources">Hosting resources</a></li>
+							<li><a href="https://www.airbnb.co.uk/help/community?s=footer">Community forum</a></li>
+							<li><a href="https://www.airbnb.co.uk/help/responsible-hosting">Hosting responsibility</a></li>					
+					</section>
+					<section class="more-info-section">
+						<h3 class="more-info-section-header">Airbnb</h3>
+						<ul class="more-info-section-list">
+							<li><a href="https://www.airbnb.co.uk/press/news">Newsroom</a></li>
+							<li><a href="https://www.airbnb.co.uk/release">New features</a></li>
+							<li><a href="https://www.airbnb.co.uk/careers">Careers</a></li>
+							<li><a href="https://investors.airbnb.com/">Investors</a></li>
+							<li><a href="https://www.airbnb.co.uk/giftcards">Gift cards</a></li>
+							<li><a href="https://www.airbnb.org/?locale=en-GB/">Airbnb.org emergency stays</a></li>
+						</ul>					
+					</section>
+				</div>
+				
+				<!--bottom footer with privacy, terms, sitemaps etc-->
+				<div class="footer-section">
+					<div>
+						<div class="choose-language">
+							<span class="language">
+								<button>
+									<span class="globe-icon">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" style="display:block;height:16px;width:16px;fill:currentColor" >
+											<path d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z"></path>
+										</svg>
+									</span>
+									<span>English (GB)</span>
+								</button>
+							</span>
+							<span class="currency">
+								<button>
+									<span class="currency-sign">£</span>
+									<span>GBP</span>
+								</button>
+							</span>
+
+						</div>
+						<div class="copyright-terms">
+							<div class="copyright">
+								© 2024 Airbnb, Inc.
+							</div>
+							<div class="terms">
+								<span>
+									<ol>
+										<li><a href="https://www.airbnb.co.uk/terms/privacy_policy">Privacy</a><span class="period">.</span></li>
+										<li><a href="https://www.airbnb.co.uk/terms">Terms</a><span class="period">.</span></li>
+										<li><a href="https://www.airbnb.co.uk/sitemaps/v2">Sitemap</a><span class="period">.</span></li>
+										<li><a href="https://a0.muscache.com/static/uk-modern-slavery-act-statement.pdf">UK Modern Slavery Act</a><span class="period">.</span></li>
+										<li><a href="https://www.airbnb.co.uk/about/company-details">Company details</a></li>
+									</ol>
+								</span>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		
+		<!--Navbar - Explore, wishlist, log in-->
+		<nav>
+			<div class="navbar">
+				<a class="navbar-link" type="button" href="https://www.airbnb.co.uk/">
+					<div class="nav-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: none; height: 24px; width: 24px; stroke: currentcolor; stroke-width: 2.66667; overflow: visible;">
+							<g fill="none">
+								<circle class="red-icon" cx="12" cy="12" r="10"></circle>
+								<path class="red-icon" d="m19 19 11 11"></path>
+							</g>
+						</svg>
+					</div>
+					<div class="nav-link-name red-icon">Explore</div>
+				</a>
+				<a class="navbar-link" href="https://www.airbnb.co.uk/wishlists">
+					<div class="nav-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: none; height: 24px; width: 24px; stroke: currentcolor; stroke-width: 2; overflow: visible;">
+							<path class="nav-icon-color" d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
+						</svg>
+					</div>
+					<div class="nav-link-name">Wishlists</div>
+				</a>
+				<a class="navbar-link" href="https://www.airbnb.co.uk/login">
+					<div class="nav-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display: block; fill: none; height: 24px; width: 24px; stroke: currentcolor; stroke-width: 2; overflow: visible;">
+							<g fill="none">
+								<circle class="nav-icon-color" cx="16" cy="16" r="14"></circle>
+								<path class="nav-icon-color" d="M14.02 19.66a6 6 0 1 1 3.96 0M17.35 19.67H18c3.69.61 6.8 2.91 8.54 6.08m-20.92-.27A12.01 12.01 0 0 1 14 19.67h.62"></path>
+							</g>
+						</svg>
+					</div>
+					<div class="nav-link-name">Log in</div>
+				</a>
+			</div>
+		</div>
 		
 	<!--Map button - when scrolling up, it gets hidden - opacity: 0,;visibility: hidden;
 		(this appears to happen when scrolling all the way to the top  and past the main part)
 		Scrolling down the main part - opacity: 1; visibility: visible;-->
-	<!--Navbar - Explore, wishlist, log in-->
-
+	
 	<!--It appears that the original order is 
 		1. main part/search and properties, 
 		2. navbar on the bottom, 
 		3. data pages /footer-->
-	</div>
+	</nav>
 	
 </body>
 </html>
