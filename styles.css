@@ -41,6 +41,81 @@ a {
     
 } */
 
+.app-install {
+    background-color: #FFFFFF;
+    border-bottom: 0.5px solid #e2e2e2;
+    align-items: center;
+    padding: 0 15px 0 10px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    height: 72px;
+}
+
+.x-button {
+    text-align: center;
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    background: transparent;
+    position: relative;
+    width: auto;
+    display: inline-block;
+    color: #717171;
+}
+
+.airbnb-logo {
+    background-color: #FF385C;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 8px 0 6px;
+    display: flex;
+    color: #FFFFFF;
+    height: 40px;
+    width: 40px;
+    flex: none;
+}
+
+.get-app {
+    margin-right: 8px;
+    color: #222222;
+    flex: auto;
+    display: block;
+}
+
+.get-app-header {
+    font-weight: 600;
+    line-height: 1.125rem;
+    font-size: 0.875rem;
+    letter-spacing: normal;
+}
+
+.get-app-subheader {
+    line-height: 1rem;
+    font-size: 0.75rem;
+    color: #717171;
+}
+
+.use-app-button {
+    padding: 4px 10px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.125rem;
+    font-size: 0.875rem;
+    letter-spacing: normal;
+    align-self: center;
+    border: 0;
+    border-radius: 24px;
+    background: #0073e5;
+    position: relative;
+    color: #FFFFFF;
+    width: auto;
+    text-transform: uppercase;
+}
+
 .sticky-top {
     display: flex;
     flex-direction: column;
