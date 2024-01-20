@@ -568,6 +568,58 @@ a {
 
 }
 
+.map-button-container {
+    inset-inline: 0;
+    position: fixed;
+    z-index: 4;
+    display: block;
+    bottom: 0;
+    transform: translateY(-65px);
+
+}
+
+.map-button {
+    position: relative;
+    display: flex;
+    margin-bottom: 24px;
+    white-space: nowrap;
+    justify-content: center;
+    z-index: 3;
+}
+
+.map-button button {
+    display: inline-flex;
+    border-radius: 24px;
+    margin: 0;
+    padding: 11px 19px;
+    color: #222222;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: #222222;
+
+}
+
+.map-button-content {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    display: flex;
+}
+
+.map-button-text {
+    display: inline-flex;
+    align-self: center;
+    color: inherit;
+}
+
+.map-button-icon {
+    display: inline-flex;
+    align-self: center;
+    margin-left: 8px;
+}
+
 footer {
     display: block;
     border-top: 1px solid #DDDDDD;

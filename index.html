@@ -441,9 +441,22 @@
 				</div>
 			</div>
 		</div>
-			<!--Navbar 342x26-->
-			<!--Popular, Historic, Coastal etc, tabs-->
-			<!--Popular tab panel withlist of places and Show more. Each list item is an <a> tag with 2 <span> inside -->
+			
+		<!--Map button-->
+		<div class="map-button-container">
+			<div class="map-button">
+				<button>
+					<span class="map-button-content">
+						<span class="map-button-text">Map</span>
+						<div class="map-button-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display:block;height:16px;width:16px;fill:#FFFFFF">
+								<path d="M31.25 3.75a2.29 2.29 0 0 0-1.01-1.44A2.29 2.29 0 0 0 28.5 2L21 3.67l-10-2L2.5 3.56A2.29 2.29 0 0 0 .7 5.8v21.95a2.28 2.28 0 0 0 1.06 1.94A2.29 2.29 0 0 0 3.5 30L11 28.33l10 2 8.49-1.89a2.29 2.29 0 0 0 1.8-2.24V4.25a2.3 2.3 0 0 0-.06-.5zM12.5 25.98l-1.51-.3L9.5 26H9.5V4.66l1.51-.33 1.49.3v21.34zm10 1.36-1.51.33-1.49-.3V6.02l1.51.3L22.5 6h.01v21.34z"></path>
+							</svg>
+						</div>
+					</span>
+				</button>
+			</div>
+		</div>
 
 		<!--Footer with multiple sections-->
 		<footer>
@@ -482,7 +495,7 @@
 						</ul>					
 					</section>
 				</div>
-				
+
 				<!--bottom footer with privacy, terms, sitemaps etc-->
 				<div class="footer-section">
 					<div>
@@ -562,12 +575,8 @@
 					<div class="nav-link-name">Log in</div>
 				</a>
 			</div>
-		</div>
+		</nav>
 		
-	<!--Map button - when scrolling up, it gets hidden - opacity: 0,;visibility: hidden;
-		(this appears to happen when scrolling all the way to the top  and past the main part)
-		Scrolling down the main part - opacity: 1; visibility: visible;-->
-	
 	<!--It appears that the original order is 
 		1. main part/search and properties, 
 		2. navbar on the bottom, 
