@@ -473,6 +473,28 @@ a {
     font-weight: 400 !important;
 }
 
+.listing-rating {
+    justify-self: end;
+    grid-row: 1;
+    grid-column: -2/-1;
+}
+
+.rating-container {
+    align-items: center;
+    display: flex;
+}
+
+.star {
+    color: #222222;
+}
+
+.rating {
+    margin-inline-start: 4px;
+    color: #222222;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+}
+
 .continue-exploring {
     display: block;
 }
