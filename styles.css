@@ -15,9 +15,9 @@
 }
 
 html {
-    /* to simulate the mobile phone viewport size, the width and height are set as follows (size of iPhone 12pro) */
-    height: 844px;
-    width: 390px;
+    /* to simulate the mobile phone viewport size, the width and height are set as follows (size of iPhone 14pro Max) */
+    max-height: 932px;
+    max-width: 430px;
 
     margin-left: auto;
     margin-right: auto;
@@ -282,8 +282,8 @@ a {
 
 .listing-container {
     display: block;
-    width: 342px;
-    height: 425px;
+    /* width: 342px;
+    height: 425px; */
 }
 
 .listing {
@@ -587,7 +587,7 @@ a {
     height: 50px;
     top: 1px;
     cursor: pointer;
-    background-image: linear-gradient(to right,rgba(255,255,255,0),white, white);
+    background-image: linear-gradient(to right,rgba(255,255,255,0),#f7f7f7, #f7f7f7);
 }
 
 .inspiration-tab-panel {
@@ -844,7 +844,7 @@ nav {
     color: #222222;
     box-sizing: border-box;
     width: 100%;
-    max-width: 390px;
+    max-width: 430px;
 }
 
 .navbar {
